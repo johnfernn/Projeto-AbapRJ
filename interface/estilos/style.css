@@ -337,7 +337,6 @@ input {
 
 /*Apoie*/
 
-
 #apoie>h2 {
   color: #2D4484;
   text-align: center;
@@ -370,6 +369,83 @@ input {
   height: 200px;
 }
 
+/*footer*/
 
+footer{
+  background-image: linear-gradient(to bottom, #D5E2FF, #93B4FF);
+  display: flex;
+  justify-content: center;
+  gap: 138px;
+}
 
+#logoEDireitos{
+  padding: 100px 0;
+}
 
+footer>div>img{
+  width: 326px;
+  height: 317px;
+  margin-bottom: 120px;
+}
+
+#logoEDireitos>p{
+  font-family: var(--font2);
+  font-weight: 400;
+  font-family: #2D4484;
+}
+
+#contatos{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contatos>h2{
+  color: #2D4484;
+  font-family: var(--font2);
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+#contatos>p{
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+#contatos>p>a{
+  font-family: var(--font2);
+  font-size: 2em;
+  color: #2D4484;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.redesSociais{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+#infomPags{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#infomPags>h2{
+  color: #2D4484;
+  font-family: var(--font2);
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+#infomPags>p{
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+#infomPags>p>a{
+  font-family: var(--font2);
+  font-size: 2em;
+  color: #2D4484;
+  font-weight: 400;
+  text-decoration: none;
+}
