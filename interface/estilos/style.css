@@ -67,7 +67,6 @@ header>nav>ul>li>a:hover {
 .content {
   width: auto;
   overflow: hidden;
-
 }
 
 .content .slide img {
@@ -449,3 +448,70 @@ footer>div>img{
   font-weight: 400;
   text-decoration: none;
 }
+
+
+@media (max-width: 500px){
+
+  header {
+    padding: 36px 43px;
+  }
+
+  header>a>img {
+    width: 86px;
+    height: 85px;
+  }
+  
+  header>nav>ul {
+    padding: 40px;
+    gap: 60px;
+  }
+  
+  header>nav>ul>li>a {
+    text-decoration: none;
+    color: #375098;
+    font-family: var(--font1);
+    font-size: 1em;
+  }
+
+  /* slide */
+  .content .slide img {
+    height: 220px;
+  }
+
+  /*atalhos 1 */
+  .atalho1 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 52px;
+  }
+
+  .atalho1>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+  
+  .atalho1>div>a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .atalho1>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+  
+  .atalho1>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 600;
+    font-size: 1em;
+    color: #375098;
+  }
+
+  /*
+  
+}
+
