@@ -11,14 +11,10 @@ setInterval( function(){
 }, 3000 );
 
 //Sobre o projeto
-var button = document.getElementById('read_button')
+var botao = document.getElementById('read_button')
 
-function ajustaCaixa(){
-    var caixa = this.querySelector('#sobreOProjeto')
-}
-
-button.addEventListener('click', function(){
-    var card = this.querySelector('#sobreOProjeto')
+botao.addEventListener('click', function(){
+    var card = document.querySelector('.sobreOProjeto')
     card.classList.toggle('active')
 
     if (card.classList.contains('active')){

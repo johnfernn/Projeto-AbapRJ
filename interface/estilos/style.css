@@ -155,7 +155,7 @@ input {
 
 /* Sobre o projeto*/
 
-#sobreOProjeto {
+.sobreOProjeto {
   margin-top: 200px;
   text-align: center;
   justify-self: center;
@@ -164,7 +164,7 @@ input {
   align-items: center;
 }
 
-#sobreOProjeto>h1 {
+.sobreOProjeto>h1 {
   color: #2D4484;
   margin-bottom: 40px;
   font-size: 4em;
@@ -172,25 +172,25 @@ input {
   font-weight: 800;
 }
 
-#sobreOProjeto>div {
+.sobreOProjeto>div {
   max-width: 1060px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#sobreOProjeto>button{
+.sobreOProjeto>button{
   display: none;
 }
 
-#sobreOProjeto>div>img {
+.sobreOProjeto>div>img {
   height: 600px;
   width: 1060px;
   border-radius: 40px 40px 0px 0px;
   margin: 0;
 }
 
-#sobreOProjeto>div>p {
+.sobreOProjeto>div>p {
   width: 100%;
   background-color: #93B4FF;
   color: white;
@@ -517,22 +517,22 @@ footer>div>img{
 
   /* Sobre o projeto */
 
-  #sobreOProjeto {
+  .sobreOProjeto {
     margin-top: 100px;
   }
   
-  #sobreOProjeto>h1 {
+  .sobreOProjeto>h1 {
     font-size: 1.5em;
   }
   
-  #sobreOProjeto>div {
+  .sobreOProjeto>div {
     max-width: 311px;
-    height: 360px;
+    height: auto;
     overflow: hidden;
     position: relative;
   }
 
-  #sobreOProjeto>div::before{
+  .sobreOProjeto>div::after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -541,25 +541,25 @@ footer>div>img{
     background: linear-gradient(transparent, #93B4FF);
   }
 
-  #sobreOProjeto.active{
-    height: auto;
+  .sobreOProjeto.active{
+    height: 360px;
   }
 
-  #sobreOProjeto.active div::before{
+  .sobreOProjeto.active div::before{
     visibility: hidden;
   }
   
-  #sobreOProjeto>div>img {
+  .sobreOProjeto>div>img {
     height: 154px;
     width: 311px;
   }
   
-  #sobreOProjeto>div>p {
+  .sobreOProjeto>div>p {
     font-size: 1.25em;
     padding: 16px 8px;
   }
 
-  #sobreOProjeto>button{
+  .sobreOProjeto>button{
     display: inline-block;
   }
   
