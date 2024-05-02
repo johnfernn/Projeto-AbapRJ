@@ -15,10 +15,22 @@ var botao = document.getElementById('read_button')
 
 botao.addEventListener('click', function(){
     var card = document.querySelector('.sobreOProjeto')
+    var imagem = document.getElementById('iconeSeta')
+    var texto = document.getElementById('descritivo')
     card.classList.toggle('active')
 
-    if (card.classList.contains('active')){
-        return button.textContent = 'Leia menos'
+    if(imagem.src.includes('imagens/SetaParaBaixo.svg')){
+        imagem.src = 'imagens/SetaParaCima.svg'
+        imagem.alt = 'Seta para cima'
+    } else {
+        imagem.src = 'imagens/SetaParaBaixo.svg'
+        imagem.alt = 'Seta para baixo'
     }
-    return button.textContent = 'Leia mais'
+
+    if(texto.textContent == 'Leia mais'){
+        texto.textContent = 'Leia menos'
+    } else {
+        texto.textContent = 'Leia mais'
+    }
 })
+
