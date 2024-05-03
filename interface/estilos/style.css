@@ -222,7 +222,7 @@ input {
   color: #375098;
 }
 
-/*Criança */
+/* Criança */
 
 #crianca {
   background-image: linear-gradient(to bottom, #D5E2FF, #93B4FF);
@@ -236,7 +236,7 @@ input {
 .imagemEsquerda>img {
   height: 486px;
   min-width: 500px;
-  max-width: 100%;
+  max-width: 100px;
   border-radius: 0 180px 180px 0;
   border-top: 4px solid #2D4484;
   border-right: 4px solid #2D4484;
@@ -510,8 +510,8 @@ footer>div>img{
   .atalho1>div>a>p {
     text-align: center;
     font-family: var(--font2);
-    font-weight: 600;
-    font-size: 1em;
+    font-weight: 700;
+    font-size: 1.3em;
     color: #375098;
   }
 
@@ -572,6 +572,82 @@ footer>div>img{
     font-family: var(--font2);
   }
   
+  /*atalhos 2*/
+  .atalho2 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 52px;
+  }
+
+  .atalho2>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+
+  .atalho2>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .atalho2>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #375098;
+  }
+
+  /*Criança*/
+  #crianca {
+    height: 566px;
+    margin-top: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagemEsquerda{
+    padding-right: 225px;
+  }
+  
+  .imagemEsquerda>img {
+    height: 189px;
+    min-width: 100px;
+    max-width: 272px;
+  }
+  
+  .conteudoTextualEsquerda {
+    width: 216px;
+    text-align: right;
+    margin-left: 260px;
+  }
+  
+  .conteudoTextualEsquerda>h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualEsquerda>p {
+    color: #1D2E61;
+    font-family: var(--font2);
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .miniMenu>img {
+    height: 74px;
+    width: 135px;
+    border: 3px solid #2D4484;
+    border-radius: 10px;
+  }
+  
+  .miniMenu>img:hover {
+    cursor: pointer;
+  }
   
 }
-
