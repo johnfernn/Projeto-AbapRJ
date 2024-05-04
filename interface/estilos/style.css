@@ -67,7 +67,6 @@ header>nav>ul>li>a:hover {
 .content {
   width: auto;
   overflow: hidden;
-
 }
 
 .content .slide img {
@@ -156,7 +155,7 @@ input {
 
 /*Sobre o projeto*/
 
-#sobreOProjeto {
+.sobreOProjeto {
   margin-top: 200px;
   text-align: center;
   justify-self: center;
@@ -165,7 +164,7 @@ input {
   align-items: center;
 }
 
-#sobreOProjeto>h1 {
+.sobreOProjeto>h1 {
   color: #2D4484;
   margin-bottom: 40px;
   font-size: 4em;
@@ -173,21 +172,25 @@ input {
   font-weight: 800;
 }
 
-#sobreOProjeto>div {
+.sobreOProjeto>div {
   max-width: 1060px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#sobreOProjeto>div>img {
+.sobreOProjeto>button{
+  display: none;
+}
+
+.sobreOProjeto>div>img {
   height: 600px;
   width: 1060px;
   border-radius: 40px 40px 0px 0px;
   margin: 0;
 }
 
-#sobreOProjeto>div>p {
+.sobreOProjeto>div>p {
   width: 100%;
   background-color: #93B4FF;
   color: white;
@@ -219,7 +222,7 @@ input {
   color: #375098;
 }
 
-/*Criança */
+/* Criança */
 
 #crianca {
   background-image: linear-gradient(to bottom, #D5E2FF, #93B4FF);
@@ -335,8 +338,7 @@ input {
   cursor: pointer;
 }
 
-/*Apoie*/
-
+/* Apoie*/
 
 #apoie>h2 {
   color: #2D4484;
@@ -370,6 +372,428 @@ input {
   height: 200px;
 }
 
+/*footer*/
+
+footer{
+  background-image: linear-gradient(to bottom, #D5E2FF, #93B4FF);
+  display: flex;
+  justify-content: center;
+  gap: 138px;
+}
+
+#logoEDireitos{
+  padding: 100px 0;
+}
+
+footer>div>img{
+  width: 326px;
+  height: 317px;
+  margin-bottom: 120px;
+}
+
+#logoEDireitos>p{
+  font-family: var(--font2);
+  font-weight: 400;
+  font-family: #2D4484;
+}
+
+#contatos{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contatos>h2{
+  color: #2D4484;
+  font-family: var(--font2);
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+#contatos>p{
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+#contatos>p>a{
+  font-family: var(--font2);
+  font-size: 2em;
+  color: #2D4484;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.redesSociais{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+#infomPags{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#infomPags>h2{
+  color: #2D4484;
+  font-family: var(--font2);
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+#infomPags>p{
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+#infomPags>p>a{
+  font-family: var(--font2);
+  font-size: 2em;
+  color: #2D4484;
+  font-weight: 400;
+  text-decoration: none;
+}
 
 
+@media (max-width: 500px){
 
+  header {
+    padding: 36px 43px;
+  }
+
+  header>a>img {
+    width: 86px;
+    height: 85px;
+  }
+  
+  header>nav>ul {
+    padding: 40px;
+    gap: 60px;
+  }
+  
+  header>nav>ul>li>a {
+    text-decoration: none;
+    color: #375098;
+    font-family: var(--font1);
+    font-size: 1em;
+  }
+
+  /* slide */
+  .content .slide img {
+    height: 220px;
+  }
+
+  /*atalhos 1 */
+  .atalho1 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 52px;
+  }
+
+  .atalho1>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+  
+  .atalho1>div>a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .atalho1>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+  
+  .atalho1>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #375098;
+  }
+
+  /* Sobre o projeto */
+
+  .sobreOProjeto {
+    margin-top: 100px;
+  }
+  
+  .sobreOProjeto>h1 {
+    font-size: 1.5em;
+  }
+  
+  .sobreOProjeto>div {
+    max-width: 311px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .sobreOProjeto>div::after{
+    content: '';
+    position: absolute;
+    border-radius: 0 0 40px 40px;
+  }
+
+  .sobreOProjeto.active .card{
+    height: auto;
+  }
+
+  .sobreOProjeto.active div::before{
+    visibility: hidden;
+  }
+  
+  .sobreOProjeto>div>img {
+    height: 154px;
+    width: 311px;
+  }
+  
+  .sobreOProjeto>div>p {
+    font-size: 1.25em;
+    padding: 16px 8px;
+  }
+
+  .sobreOProjeto>button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: none;
+    margin-top: 10px;
+  }
+
+  .sobreOProjeto>button>p{
+    color: #2D4484;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: var(--font2);
+  }
+  
+  /*atalhos 2*/
+  .atalho2 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 52px;
+  }
+
+  .atalho2>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+
+  .atalho2>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .atalho2>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #375098;
+  }
+
+  /* Criança*/
+  #crianca {
+    height: 480px;
+    margin-top: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .imagemEsquerda{
+    padding-right: 225px;
+  }
+  
+  .imagemEsquerda>img {
+    height: 189px;
+    min-width: 100px;
+    max-width: 272px;
+  }
+  
+  .conteudoTextualEsquerda {
+    width: 216px;
+    text-align: right;
+    margin-left: 260px;
+  }
+  
+  .conteudoTextualEsquerda>h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualEsquerda>p {
+    font-family: var(--font2);
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+
+  .miniMenu{
+    padding-right: 15px;
+  }
+  
+  .miniMenu>img {
+    height: 47px;
+    width: 78px;
+    border: 3px solid #2D4484;
+    border-radius: 10px;
+  }
+  
+  /*Apoiadores*/
+  #apoiador {
+    height: 380px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagemDireita{
+    padding-left: 220px;
+  }
+  
+  .imagemDireita>img {
+    height: 189px;
+    min-width: 100px;
+    max-width: 272px;
+  }
+  
+  .conteudoTextualDireita {
+    width: 216px;
+    text-align: left;
+    margin-right: 260px;
+  }
+  
+  .conteudoTextualDireita>h2 {
+    color: #2D4484;
+    font-family: var(--font2);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualDireita>p {
+    font-family: var(--font2);
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualDireita>button {
+    font-size: 0.75em;
+    margin-left: 35px;
+  }
+
+  /*Apoie o projeto*/
+
+  #apoie>h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  #apoie>p {
+    font-size: 0.75em;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 840px;
+    margin: 20px auto;
+  }
+  
+  #apoie>div{
+    max-width: 250px;
+    margin: auto;
+    margin: 20px auto 100px; 
+  }
+  
+  #apoie>div>img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /*Footer*/
+  footer{
+    gap: 10px;
+  }
+  
+  #logoEDireitos{
+    padding: 50px 0px 50px 36px;
+  }
+  
+  footer>div>img{
+    width: 90px;
+    height: 88px;
+    margin-bottom: 60px;
+  }
+  
+  #logoEDireitos>p{
+    font-size: 1em;
+  }
+  
+  #contatos{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contatos>h2{
+    font-size: 1.125em;
+  }
+  
+  #contatos>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #contatos>p>a{
+    font-size: 1em;
+  }
+  
+  .redesSociais{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  #infomPags{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #infomPags>h2{
+    color: #2D4484;
+    font-family: var(--font2);
+    font-size: 1.125em;
+    font-weight: 700;
+  }
+  
+  #infomPags>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #infomPags>p>a{
+    font-family: var(--font2);
+    font-size: 1em;
+    color: #2D4484;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .redesSociais img{
+    width: 30px;
+    height: 30px;
+  }
+  
+}
