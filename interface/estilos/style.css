@@ -659,7 +659,7 @@ footer>div>img{
   }
 
   .imagemDireita{
-    padding-left: 225px;
+    padding-left: 220px;
   }
   
   .imagemDireita>img {
@@ -721,6 +721,79 @@ footer>div>img{
   #apoie>div>img {
     width: 100px;
     height: 100px;
+  }
+
+  /*Footer*/
+  footer{
+    gap: 10px;
+  }
+  
+  #logoEDireitos{
+    padding: 50px 0px 50px 36px;
+  }
+  
+  footer>div>img{
+    width: 90px;
+    height: 88px;
+    margin-bottom: 60px;
+  }
+  
+  #logoEDireitos>p{
+    font-size: 1em;
+  }
+  
+  #contatos{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contatos>h2{
+    font-size: 1.125em;
+  }
+  
+  #contatos>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #contatos>p>a{
+    font-size: 1em;
+  }
+  
+  .redesSociais{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  #infomPags{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #infomPags>h2{
+    color: #2D4484;
+    font-family: var(--font2);
+    font-size: 1.125em;
+    font-weight: 700;
+  }
+  
+  #infomPags>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #infomPags>p>a{
+    font-family: var(--font2);
+    font-size: 1em;
+    color: #2D4484;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .redesSociais img{
+    width: 30px;
+    height: 30px;
   }
   
 }
