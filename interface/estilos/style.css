@@ -338,7 +338,7 @@ input {
   cursor: pointer;
 }
 
-/*Apoie*/
+/* Apoie*/
 
 #apoie>h2 {
   color: #2D4484;
@@ -697,6 +697,30 @@ footer>div>img{
 
   /*Apoie o projeto*/
 
+  #apoie>h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
   
+  #apoie>p {
+    font-size: 0.75em;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 840px;
+    margin: 20px auto;
+  }
+  
+  #apoie>div{
+    max-width: 250px;
+    margin: auto;
+    margin: 20px auto 100px; 
+  }
+  
+  #apoie>div>img {
+    width: 100px;
+    height: 100px;
+  }
   
 }
