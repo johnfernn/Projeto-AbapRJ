@@ -153,10 +153,10 @@ input {
   color: #375098;
 }
 
-/*Sobre o projeto*/
+/* Sobre o projeto*/
 
 .sobreOProjeto {
-  margin-top: 200px;
+  margin-top: 200px auto;
   text-align: center;
   justify-self: center;
   display: flex;
@@ -173,7 +173,7 @@ input {
 }
 
 .sobreOProjeto>div {
-  max-width: 1060px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -454,6 +454,8 @@ footer>div>img{
 }
 
 
+
+
 @media (max-width: 500px){
 
   header {
@@ -618,6 +620,7 @@ footer>div>img{
     align-self: flex-end;
     min-width: 100px;
     max-width: 272px;
+    margin: 0;
   }
   
   .imagemEsquerda>img {
@@ -627,23 +630,30 @@ footer>div>img{
   }
   
   .conteudoTextualEsquerda {
-    width: 216px;
+    max-width: 216px;
     text-align: right;
     align-self: flex-start;
+    margin: 0;
   }
   
   .conteudoTextualEsquerda>h2 {
-    font-size: 2em;
+    font-size: 1.5em;
+    max-width: 250px;
     text-align: center;
     margin-bottom: 20px;
   }
   
   .conteudoTextualEsquerda>p {
     font-family: var(--font2);
+    max-width: 250px;
     font-size: 0.75em;
     font-weight: 500;
     text-align: right;
     margin-bottom: 20px;
+  }
+
+  .miniMenu{
+    max-width: 250px;
   }
   
   .miniMenu>img {
