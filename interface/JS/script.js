@@ -1,14 +1,22 @@
 // Carrosel
-let contador = 1;
+var radio = document.querySelector('.manual-btn')
+var cont = 1
 
-setInterval( function(){
-    document.getElementById('slide' + contador).checked = true;
-    contador++;
+document.getElementById('radio1').checked = true
 
-    if(counter > 5 ) {
-        contador = 1;
+setInterval(() => {
+    proximaImg()
+}, 5000)
+
+function proximaImg(){
+    cont++
+
+    if(cont > 3){
+        cont = 1
     }
-}, 3000 );
+
+    document.getElementById('radio' + cont).checked = true
+}
 
 //Sobre o projeto
 var botao = document.getElementById('read_button')

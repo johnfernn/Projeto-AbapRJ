@@ -58,81 +58,6 @@ header>nav>ul>li>a:hover {
 
 /* Conteúdo principal */
 
-/*Slide */
-
-
-
-.carrosel {
-  display: block;
-}
-
-.content {
-  width: auto;
-  overflow: hidden;
-}
-
-.content .slide img {
-  height: 560px;
-  width: 100%;
-}
-
-.navigation {
-  position: absolute;
-  bottom: -100px;
-  left: 600px;
-  display: flex;
-}
-
-.bar {
-
-  width: 15px;
-  height: 15px;
-  border: 2px solid white;
-  margin: 6px;
-  border-radius: 15px;
-  cursor: pointer;
-  transform: .5s ease;
-
-}
-
-.bar:hover {
-  background-color: white;
-}
-
-input {
-  display: none;
-}
-
-.slides {
-  display: flex;
-  width: 500%;
-  height: 100%;
-}
-
-.slide {
-  width: 20%;
-  transition: .6s;
-}
-
-#slide1:checked~.s1 {
-  margin-left: 0;
-}
-
-#slide2:checked~.s1 {
-  margin-left: -20%;
-}
-
-#slide3:checked~.s1 {
-  margin-left: -40%;
-}
-
-#slide4:checked~.s1 {
-  margin-left: -60%;
-}
-
-#slide5:checked~.s1 {
-  margin-left: -80%;
-}
 
 /* Atolhos 01 */
 
@@ -202,27 +127,6 @@ input {
   font-weight: 500;
   padding: 36px 50px;
   border-radius: 0 0 40px 40px;
-}
-
-/*Atalhos 2 */
-
-.atalho2 {
-  margin-top: 200px;
-  display: flex;
-  gap: 100px;
-  justify-content: center;
-}
-
-.atalho2>div>a {
-  text-decoration: none;
-}
-
-.atalho2>div>a>p {
-  text-align: center;
-  font-family: var(--font2);
-  font-weight: 600;
-  font-size: 2em;
-  color: #375098;
 }
 
 /* Criança */
@@ -375,6 +279,11 @@ input {
   height: 200px;
 }
 
+#apoie>div>a>img {
+  width: 200px;
+  height: 200px;
+}
+
 /*footer*/
 
 footer{
@@ -465,6 +374,16 @@ footer>div>img{
 }
 
 @media (max-width: 1060px){
+
+  header>nav>ul>li>a {
+    font-size: 1.2em;
+  }
+  
+  header>nav>ul {
+    padding: 40px 12px;
+    gap: auto;
+  }
+
   /*Atalho1*/
 
   .atalho1 {
@@ -527,42 +446,6 @@ footer>div>img{
     font-size: 1.25em;
     padding: 16px 8px;
   }
-
-  /*atalho 2 */
-  .atalho2 {
-    display: grid;
-    grid-template-columns: 136px 136px;
-    margin: 100px auto 0 auto;
-    gap: 82px;
-    max-width: 500px;
-    min-width: 320px;
-  }
-
-  .atalho2>div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    overflow-x: hidden;
-  }
-  
-  .atalho2>div>a {
-    text-decoration: none;
-    text-align: center;
-  }
-
-  .atalho2>div>a>img{
-    height: 80px;
-    width: 80px;
-  }
-  
-  .atalho2>div>a>p {
-    text-align: center;
-    font-family: var(--font2);
-    font-weight: 700;
-    font-size: 1.3em;
-    color: #375098;
-  }
-
 
   /* Criança */
   #crianca {
@@ -818,8 +701,8 @@ footer>div>img{
   }
   
   header>nav>ul {
-    padding: 40px;
-    gap: 60px;
+    padding: 40px 12px;
+    gap: auto;
   }
   
   header>nav>ul>li>a {
@@ -836,10 +719,9 @@ footer>div>img{
 
   /*atalhos 1 */
   .atalho1 {
-    display: grid;
-    grid-template-columns: 136px 136px;
+    display: flex;
     margin-top: 100px;
-    gap: 42px;
+    gap: 20px;
     max-width: 500px;
     min-width: 320px;
   }
@@ -857,8 +739,8 @@ footer>div>img{
   }
 
   .atalho1>div>a>img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
   }
   
   .atalho1>div>a>p {
@@ -924,34 +806,6 @@ footer>div>img{
     font-size: 1em;
     font-weight: 300;
     font-family: var(--font2);
-  }
-  
-  /*atalhos 2*/
-  .atalho2 {
-    display: grid;
-    grid-template-columns: 136px 136px;
-    margin-top: 100px;
-    gap: 52px;
-  }
-
-  .atalho2>div{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    overflow-x: hidden;
-  }
-
-  .atalho2>div>a>img{
-    height: 80px;
-    width: 80px;
-  }
-
-  .atalho2>div>a>p {
-    text-align: center;
-    font-family: var(--font2);
-    font-weight: 700;
-    font-size: 1.3em;
-    color: #375098;
   }
 
   /* Criança*/
@@ -1082,8 +936,13 @@ footer>div>img{
     margin: auto;
     margin: 20px auto 100px; 
   }
-  
+
   #apoie>div>img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #apoie>div>a>img {
     width: 100px;
     height: 100px;
   }
