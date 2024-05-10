@@ -387,12 +387,9 @@ footer>div>img{
   /*Atalho1*/
 
   .atalho1 {
-    display: grid;
-    grid-template-columns: 136px 136px;
+    display: flex;
     margin: 100px auto 100px auto;
     gap: 82px;
-    max-width: 500px;
-    min-width: 320px;
   }
 
   .atalho1>div{

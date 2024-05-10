@@ -42,3 +42,33 @@ botao.addEventListener('click', function(){
     }
 })
 
+
+//Crianças
+var btn1 = document.getElementById('imgCriancaPQ1')
+var btn2 = document.getElementById('imgCriancaPQ2')
+var btn3 = document.getElementById('imgCriancaPQ3')
+var btn4 = document.getElementById('imgCriancaPQ4')
+
+function tracaImagem1(){
+    var imagemGrande = document.getElementById('imagemCriancaGrande')
+
+    imagemGrande.src = 'imagens/menu01.jpg'
+}
+
+function tracaImagem2(){
+    var imagemGrande = document.getElementById('imagemCriancaGrande')
+
+    imagemGrande.src = 'imagens/menu02.jpg'
+}
+
+function tracaImagem3(){
+    var imagemGrande = document.getElementById('imagemCriancaGrande')
+
+    imagemGrande.src = 'imagens/menu03.jpg'
+}
+
+function tracaImagem4(){
+    var imagemGrande = document.getElementById('imagemCriancaGrande')
+
+    imagemGrande.src = 'imagens/menu02.jpg'
+}
