@@ -70,5 +70,5 @@ function tracaImagem3(){
 function tracaImagem4(){
     var imagemGrande = document.getElementById('imagemCriancaGrande')
 
-    imagemGrande.src = 'imagens/menu02.jpg'
+    imagemGrande.src = 'imagens/menu04.jpg'
 }
