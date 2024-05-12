@@ -73,6 +73,11 @@ header>nav>ul>li>a:hover {
   text-decoration: none;
 }
 
+.atalho1>div>a>img{
+  height: 120px;
+  width: 120px;
+}
+
 .atalho1>div>a>p {
   text-align: center;
   font-family: var(--font2);
@@ -736,8 +741,8 @@ footer>div>img{
   }
 
   .atalho1>div>a>img{
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
   }
   
   .atalho1>div>a>p {
