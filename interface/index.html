@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Site projeto</title>
   <link href="estilos/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="estilos/slide.css">
 </head>
 
 <body>
@@ -14,75 +15,59 @@
     <a href="index.html"><img src="imagens/logo.svg" alt="Logo ABAPRJ"></a>
     <nav>
       <ul>
-        <li><a href="#">LINK</a></li>
-        <li><a href="#">CRIAR CONTA</a></li>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">VOLUNTARIAR-SE</a></li>
       </ul>
     </nav>
   </header>
   <!-- Conteúdo principal -->
   <main>
-    <!--
-    <section class="carrosel">
-      <div class="content">
 
-        <div class="slides">
+    <section class="slider">
+      <div class="slider-content">
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+        <input type="radio" name="btn-radio" id="radio4">
 
-          <input class="input" type="radio" name="slide" id="slide1" checked>
-          <input class="input" type="radio" name="slide" id="slide2">
-          <input class="input" type="radio" name="slide" id="slide3">
-          <input class="input" type="radio" name="slide" id="slide4">
-          <input class="input" type="radio" name="slide" id="slide5">
-
-
-          <div class="slide s1">
-            <a href="">
-              <img src="imagens/Slide.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="slide">
-            <a href="">
-              <img src="imagens/Slide.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="slide">
-            <a href="">
-              <img src="imagens/Slide.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="slide">
-            <a href="">
-              <img src="imagens/Slide.jpg" alt="">
-            </a>
-          </div>
-
-          <div class="slide">
-            <a href="">
-              <img src="imagens/Slide.jpg" alt="">
-            </a>
-          </div>
+        <div class="slide-box primeiro">
+          <a href="#"><img class="img-desktop" src="imagens/imagem3pc.jpg" alt="imagem 1"></a>   
+          <a href="#"><img class="img-mobile" src="imagens/imagem3android.jpg" alt="imagem 1"></a>   
         </div>
-      </div>
 
-      <div class="navigation">
+        <div class="slide-box">
+          <a href="#"><img class="img-desktop" src="imagens/imagem2pc.jpg" alt="imagem 2"></a>   
+          <a href="#"><img class="img-mobile" src="imagens/imagem2android.jpg" alt="imagem 2"></a>   
+        </div>
 
-        <label class="bar" for="slide1"></label>
-        <label class="bar" for="slide2"></label>
-        <label class="bar" for="slide3"></label>
-        <label class="bar" for="slide4"></label>
-        <label class="bar" for="slide5"></label>
+        <div class="slide-box">
+          <a href="#"><img class="img-desktop" src="imagens/imagem1pc.jpg" alt="imagem 3"></a>   
+          <a href="#"><img class="img-mobile" src="imagens/imagem1android.jpg" alt="imagem 3"></a>   
+        </div>
+
+        <div class="slide-box">
+          <a href="#"><img class="img-desktop" src="imagens/imagem4pc.jpg" alt="imagem 4"></a>   
+          <a href="#"><img class="img-mobile" src="imagens/imagem4android.jpg" alt="imagem 4"></a>   
+        </div>
+
+        <div class="nav-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+        <div class="nav-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
 
       </div>
     </section>
-    -->
+    
     <section class="atalho1">
-      <div id="atalho1">
-        <a href="">
-          <img src="imagens/cadastrarCrianca.svg" alt="Icone de cadastrar criança">
-          <p>Cadastrar<br> Crianças</p>
-        </a>
       </div>
       <div id="atalho2">
         <a href="">
@@ -92,13 +77,13 @@
       </div>
       <div id="atalho3">
         <a href="">
-          <img src="imagens/acoesSociais.svg" alt="Icone de ações sociais">
+          <img src="imagens/acoesSociais.jpg" alt="Icone de ações sociais">
           <p>Ações<br> Sociais</p>
         </a>
       </div>
       <div id="atalho4">
         <a href="">
-          <img src="imagens/FinancieAOng.svg" alt="Icone de financiar o ng">
+          <img src="imagens/FinancieAOng.jpg" alt="Icone de financiar o ng">
           <p>Financie<br> a ONG</p>
         </a>
       </div>
@@ -109,58 +94,39 @@
       <div class="card">
         <img src="imagens/sobreOProjeto.jpg"
           alt="Imagem dos participantes da ONG com as pessoas que estão sendo ajudadas">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum. </p>
+        <p>
+          A ABRAP (Ação Beneficente Amor ao Próximo) é uma organização não governamental dedicada a promover a melhoria da sociedade em várias frentes. Comprometida com o bem-estar coletivo, a ABRAP atua em diversas áreas, desde a assistência social às comunidades carentes até a promoção da educação e dos recursos básicos necessários para uma vida digna.
+        Por meio de programas estruturados, a ABRAP proporciona alimentação para famílias em situação de vulnerabilidade, apoio educacional para crianças desfavorecidas, e organiza eventos esportivos que incentivam hábitos saudáveis entre os jovens. Além disso, a organização também se dedica a projetos de preservação ambiental, contribuindo para a sustentabilidade do planeta.
+        Com um foco inclusivo, a ABRAP atende pessoas de todas as idades, desde jovens em fase escolar até idosos, visando sempre a melhoria da qualidade de vida da população. Por meio de sua atuação abrangente e comprometida, a ABRAP tem sido uma força positiva na transformação social, ajudando a construir um futuro mais justo e igualitário para todos.</p>
       </div>
 
       <button id="read_button"> <p id="descritivo">Leia mais</p> <img src="imagens/SetaParaBaixo.svg" alt="seta para baixo" id="iconeSeta"></button>
     </section>
     
-    <section class="atalho2">
-      <div>
-        <a href="">
-          <img src="imagens/cadastrarCrianca.svg" alt="Icone de cadastrar criança">
-          <p>Cadastrar<br> Crianças</p>
-        </a>
-      </div>
-      <div id="atalho2">
-        <a href="">
-          <img src="imagens/apoieOProjeto.svg" alt="Icone de apoiar o projeto">
-          <p>Apoiar<br> o Projeto</p>
-        </a>
-      </div>
-    </section>
-    
     <section id="crianca">
       <div class="imagemEsquerda">
-        <img id="imagemCriancaGrande" src="imagens/criancas .jpg" alt="Ação beneficiente com crianças">
+        <img id="imagemCriancaGrande" src="imagens/menu01.jpg" alt="Ação beneficiente com crianças">
       </div>
 
       <div class="conteudoTextualEsquerda">
         <h2>CRIANÇAS</h2>
-        <p>Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book.</p>
+        <p>
+          Nosso compromisso com as gerações futuras é absoluto. Buscamos incessantemente incentivá-las a construir um futuro melhor, promovendo acesso equitativo à educação e oferecendo suporte às crianças mais necessitadas.</p>
         <div class="miniMenu">
-          <img id="imgCriancaPQ1" src="imagens/menu01.jpg" alt="">
-          <img id="imgCriancaPQ2" src="imagens/menu02.jpg" alt=""><br>
-          <img id="imgCriancaPQ3" src="imagens/menu03.jpg" alt="">
-          <img id="imgCriancaPQ4" src="imagens/menu04.jpg" alt="">
+          <img id="imgCriancaPQ1" src="imagens/menu01.jpg" alt="" onclick="tracaImagem1()">
+          <img id="imgCriancaPQ2" src="imagens/menu02.jpg" alt="" onclick="tracaImagem2()"><br>
+          <img id="imgCriancaPQ3" src="imagens/menu03.jpg" alt="" onclick="tracaImagem3()">
+          <img id="imgCriancaPQ4" src="imagens/menu04.jpg" alt="" onclick="tracaImagem4()">
         </div>
 
       </div>
     </section>
-    <!--
+    
     <section id="apoiador">
       <div class="conteudoTextualDireita">
         <h2>APOIADORES</h2>
-        <p>Lorem Ipsumis simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-          make a type specimen book.</p>
+        <p>Se você é um empresario e tem interesse de contribuir com os projetos de nossa ONG, cadastre-se abaixo e venha nos ajudar a transformar a nossa sociedade em um lugar melhor para todos.
+        </p>
         <button>CADASTRAR</button>
       </div>
 
@@ -169,22 +135,22 @@
       </div>
 
     </section>
-
+    
     <section id="apoie">
       <h2>APOIE O PROJETO</h2>
       <p>O projeto impacta na vida de muitas pessoas em estado de carência  so-
-      cial. As pessoas de nosso  do nosso projetos se dispõem a ajuda-los po-
-      rem o projeto precisa de ajuda financeira para continuar beneficiando as
+      cial. As pessoas do nosso projetos se dispõem a ajuda-los porem
+      o projeto precisa de ajuda financeira para continuar beneficiando as
       pessoas necessitadas. Contamos com sua solidariedade para nos apoiar
       com qualquer valor  disponível através dos meios disponíveis abaixo.
       </p>
 
       <div>
-        <img src="imagens/iconePix.jpg" alt="Icone do PIX"></img>
+        <a href="#"><img src="imagens/iconePix.jpg" alt="Icone do PIX"></a>
         <img src="imagens/qrCode.jpg" alt="QR Code para apoiar o projeto">
       </div>
     </section>
-
+    
   </main>
 
   <footer>
@@ -195,14 +161,14 @@
 
     <div id="contatos">
       <h2>CONTATOS</h2>
-      <p><a href="">emailgenerico@gmail.com</a><br></p>
-      <p><a href="">(21) 99999-9999</a></p>
+      <p><a href="">contatoabaprj<br id="quebra">@gmail.com</a></p>
+      <p><a href="">+55 (21) 99108-5187</a></p>
       <div class="redesSociais">
-        <a href=""><img src="imagens/iconFacebook.svg" alt="icone do facebook"></a>
-        <a href=""><img src="imagens/inconInstagram.svg" alt="icone do instagram"></a>
+        <a href="https://www.facebook.com/abaprj?mibextid=ZbWKwL"><img src="imagens/iconFacebook.svg" alt="icone do facebook"></a>
+        <a href="https://www.instagram.com/abaprj/"><img src="imagens/inconInstagram.svg" alt="icone do instagram"></a>
       </div>
     </div>
-
+    
     <div id="infomPags">
       <h2>IFORMAÇÃO</h2>
       <p><a href="">Crianças</a><br></p>
@@ -210,8 +176,12 @@
       <p><a href="">Vagas</a><br></p>
       <p><a href="">Apoiadores</a><br></p>
     </div>
+
+    <div id="direitos">
+      <p>ABAP © Todos os direitos reservados. </p>
+    </div>
   </footer>
-  -->
+  
   <script src="JS/script.js"></script>
 
 </body>
