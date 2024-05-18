@@ -56,6 +56,70 @@ header>nav>ul>li>a:hover {
   color: #707ea9;
 }
 
+/*conteudo principal*/
+
+main{
+  margin: 100px 0px ;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+main>h2{
+  text-align: center;
+}
+
+#cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+#card{
+  display: flex;
+  flex-direction: column;
+  background-color: #93B4FF;
+  border: 10px solid #3F5CB0;
+  border-radius: 50px;
+  padding: 0 40px;
+  width: auto;
+}
+
+#card>h2{
+  font-family: var(--font2);
+  color: #3F5CB0;
+  font-size: 28px;
+  text-align: center;
+  margin: 50px 0 25px;
+}
+
+#card>img{
+  width: 200px;
+  height: 200px;
+}
+
+#card>button{
+  justify-self: center;
+  margin: 25px 0 50px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 18px 10px;
+  background-color: #405EB2;
+  border: 5px solid #375098;
+  border-radius: 50px;
+}
+
+#card>button:hover{
+  cursor: pointer;
+}
+
+#card>button:active{
+  background-color: #375098;
+}
+
 /*footer*/
 
 footer{
@@ -156,6 +220,46 @@ footer{
       gap: auto;
     }
 
+    /* main */
+    #cards{
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #card{
+      display: flex;
+      flex-direction: column;
+      background-color: #93B4FF;
+      border: 10px solid #3F5CB0;
+      border-radius: 50px;
+      padding: 0 40px;
+      width: auto;
+    }
+    
+    #card>h2{
+      font-family: var(--font2);
+      color: #3F5CB0;
+      font-size: 18px;
+      text-align: center;
+      margin: 50px 0 25px;
+    }
+    
+    #card>img{
+      width: 100px;
+      height: 100px;
+    }
+    
+    #card>button{
+      justify-self: center;
+      margin: 25px 0 50px;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 18px 10px;
+      background-color: #405EB2;
+      border: 3px solid #375098;
+      border-radius: 50px;
+    }
+
     /*Footer*/
   footer{
     display: grid;
@@ -254,6 +358,19 @@ footer{
     color: #2D4484;
     font-weight: 400;
     text-decoration: none;  
+  }
+}
+
+@media (max-width: 720px){
+  #cards{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (max-width: 640px){
+  #cards{
+    grid-template-columns: 1fr;
   }
 }
 
