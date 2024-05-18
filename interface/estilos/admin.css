@@ -67,7 +67,12 @@ main{
 }
 
 main>h2{
+  color: #2D4484;
   text-align: center;
+  font-family: var(--font2);
+  font-size: 4em;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 #cards{
@@ -221,6 +226,11 @@ footer{
     }
 
     /* main */
+
+    main>h2{
+      font-size: 3em; 
+    }
+
     #cards{
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -398,6 +408,11 @@ footer{
       color: #375098;
       font-family: var(--font1);
       font-size: 0.75em;
+    }
+
+    /*main*/
+    main>h2{
+      font-size: 2em; 
     }
 
     /*Footer*/
