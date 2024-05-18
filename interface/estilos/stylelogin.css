@@ -11,8 +11,12 @@ body, html {
 
 .container .left-section {
     flex: 1;
-    background-color: #4169E1; 
+    background-color: #4682B4; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
+
 
 .container .right-section {
     flex: 1;
@@ -66,4 +70,8 @@ body, html {
 .tipo{
   font-weight: bold;
   font-size: 16px;
+}
+
+.img{
+    padding-top: 50px;
 }
