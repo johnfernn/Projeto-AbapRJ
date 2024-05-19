@@ -1,0 +1,29 @@
+{% block page_title %}
+{% endblock page_title %}
+
+{% block content %}
+
+<div class="search-container">
+        <div class="container">
+            <form action="{% url 'procurarCrianca' %}" method="GET" class="procurar-form">
+                <label>
+                    <input type="search" class="procurar-input" name="q" value="{{ procurar_termo }}" required>
+                </label>
+                <button type="submit" class="procurar-button"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+  </div>
+
+
+
+<div class="main-content main-content-list container">
+{% for cadastro in object_list %}
+    {% include 'cadastroAdimin/buscas/criancas/Resultados_procurarCrianca.html' %}
+{% empty %}
+    <div class="center m-y">
+        <h1>Sem pessoas aqui</h1>
+    </div>
+{% endfor %}
+</div>
+
+{% endblock content %}
