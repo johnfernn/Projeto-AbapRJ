@@ -2,10 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@font-face {
-  font-family: 'Wolf Sans';
-  src: url('fontes/Wolf Sans Play Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
   --cor0: #ffffff;
@@ -16,7 +13,7 @@
 
   /*Fontes*/
   --font1: 'Wolf Sans', Arial, Helvetica, sans-serif;
-  --font2: 'Inter', Arial, Helvetica, sans-serif;
+  --font2: "Varela Round", sans-serif;
 }
 
 * {
@@ -212,6 +209,20 @@ footer{
   
   #direitos{
     display: none;
+  }
+
+  #registro{
+    height: 800px;
+    background-image: linear-gradient(to bottom, #D5E2FF, #93B4FF);
+  }
+
+  #registro>h2{
+    color: #2D4484;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 4em;
+    font-weight: 800;
+    margin: 25px 0px 50px;
   }
 
   @media (max-width: 1060px){
