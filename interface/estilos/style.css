@@ -476,7 +476,93 @@ footer>div>img {
   color: white;
   box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
 
+<<<<<<< HEAD
   img {
+=======
+  header {
+    padding: 20px 43px;
+    width: 100vw;
+    height: 150px;
+  }
+
+  header>a>img {
+    width: 66px;
+    height: 65px;
+    margin-top: 20px;
+  }
+  
+  header>nav>ul {
+    padding: 40px;
+    gap: 60px;
+  }
+  
+  header>nav>ul>li>a {
+    text-decoration: none;
+    color: #375098;
+    font-family: var(--font1);
+    font-size: 0.75em;
+  }
+
+  /* slide */
+  .content .slide img {
+    height: 220px;
+  }
+
+  /*atalhos 1 */
+  .atalho1 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 42px;
+    max-width: 500px;
+    min-width: 320px;
+  }
+
+  .atalho1>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+  
+  .atalho1>div>a {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .atalho1>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+  
+  .atalho1>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #375098;
+  }
+
+  /* Sobre o projeto */
+
+  .sobreOProjeto {
+    margin-top: 100px;
+  }
+  
+  .sobreOProjeto>h1 {
+    font-size: 1.5em;
+  }
+  
+  .sobreOProjeto>div {
+    max-width: 311px;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .sobreOProjeto>div::after{
+    content: '';
+>>>>>>> a33982ddba184eb8fd7d61702e92e0d621386f26
     position: absolute;
     object-fit: cover;
     width: 100%;
@@ -509,9 +595,233 @@ footer>div>img {
     inset: auto auto 80px 30px;
   }
 
+<<<<<<< HEAD
   a {
     inset: auto auto 40px 30px;
     color: inherit;
+=======
+  .sobreOProjeto>button>p{
+    color: #2D4484;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: var(--font2);
+  }
+  
+  /*atalhos 2*/
+  .atalho2 {
+    display: grid;
+    grid-template-columns: 136px 136px;
+    margin-top: 100px;
+    gap: 52px;
+  }
+
+  .atalho2>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+
+  .atalho2>div>a>img{
+    height: 80px;
+    width: 80px;
+  }
+
+  .atalho2>div>a>p {
+    text-align: center;
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #375098;
+  }
+
+  /* Criança*/
+  #crianca {
+    height: 480px;
+    margin-top: 100px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .imagemEsquerda{
+    align-self: flex-end;
+    min-width: 100px;
+    max-width: 272px;
+  }
+  
+  .imagemEsquerda>img {
+    height: 189px;
+    min-width: auto;
+    max-width: 200px;
+  }
+  
+  .conteudoTextualEsquerda {
+    width: 216px;
+    text-align: right;
+    align-self: flex-start;
+  }
+  
+  .conteudoTextualEsquerda>h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualEsquerda>p {
+    font-family: var(--font2);
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .miniMenu>img {
+    height: 47px;
+    width: 78px;
+    border: 3px solid #2D4484;
+    border-radius: 10px;
+  }
+  
+  /*Apoiadores*/
+  #apoiador {
+    height: 380px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imagemDireita{
+    padding-left: 220px;
+  }
+  
+  .imagemDireita>img {
+    height: 189px;
+    min-width: 100px;
+    max-width: 272px;
+  }
+  
+  .conteudoTextualDireita {
+    width: 216px;
+    text-align: left;
+    margin-right: 260px;
+  }
+  
+  .conteudoTextualDireita>h2 {
+    color: #2D4484;
+    font-family: var(--font2);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualDireita>p {
+    font-family: var(--font2);
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .conteudoTextualDireita>button {
+    font-size: 0.75em;
+    margin-left: 35px;
+  }
+
+  /*Apoie o projeto*/
+
+  #apoie>h2 {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 100px;
+  }
+  
+  #apoie>p {
+    font-size: 0.75em;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 840px;
+    margin: 20px auto;
+  }
+  
+  #apoie>div{
+    max-width: 250px;
+    margin: auto;
+    margin: 20px auto 100px; 
+  }
+  
+  #apoie>div>img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /*Footer*/
+  footer{
+    gap: 10px;
+  }
+  
+  #logoEDireitos{
+    padding: 50px 0px 50px 36px;
+  }
+  
+  footer>div>img{
+    width: 90px;
+    height: 88px;
+    margin-bottom: 60px;
+  }
+  
+  #logoEDireitos>p{
+    font-size: 1em;
+  }
+  
+  #contatos{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contatos>h2{
+    font-size: 1.125em;
+  }
+  
+  #contatos>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #contatos>p>a{
+    font-size: 1em;
+  }
+  
+  .redesSociais{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  #infomPags{
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #infomPags>h2{
+    color: #2D4484;
+    font-family: var(--font2);
+    font-size: 1.125em;
+    font-weight: 700;
+  }
+  
+  #infomPags>p{
+    margin: 40px 0;
+    font-weight: 400;
+  }
+  
+  #infomPags>p>a{
+    font-family: var(--font2);
+    font-size: 1em;
+    color: #2D4484;
+    font-weight: 400;
+>>>>>>> a33982ddba184eb8fd7d61702e92e0d621386f26
     text-decoration: none;
   }
 
