@@ -291,8 +291,3 @@ Eu comecei a editar o vídeo da última reunião com a ONG, além de finalizar t
 único arquivo. Além de dar início a criação dos slides e da adaptação no GitHub.
 
 ![Print1](Prints/Screenshot_15.png)
-
-
-# Paginação
-
-![Paginação](Prints/video.mp4)
